@@ -1,0 +1,30 @@
+﻿  CourseWork(3).cpp
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(58,38): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(59,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(60,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(61,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(65,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(69,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(70,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(71,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(72,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(76,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(84,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(85,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(86,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(87,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(91,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(95,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(96,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(97,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(98,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(102,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(114,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(117,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(123,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(133,52): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(191,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(192,89): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(221,101): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\CourseWork(3)\CourseWork(3).cpp(232,91): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  CourseWork(3).vcxproj -> C:\Users\Марина\Desktop\Univers\4 semestr\KS&S\CourseWork\CourseWork(3)\x64\Debug\CourseWork(3).exe
