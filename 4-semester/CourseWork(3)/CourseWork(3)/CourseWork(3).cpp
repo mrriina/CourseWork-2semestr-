@@ -1,4 +1,4 @@
-﻿#define MAIN_PROCESS 0
+#define MAIN_PROCESS 0
 #define TASK 2
 #define SCALE 4
 
@@ -8,9 +8,9 @@
 
 #include<mpi.h>
 #include<iostream>
-#include <cstdio>
 #include <vector>
 #include <math.h>
+#include <ctime>
 using namespace std;
 using namespace cv;
 
@@ -201,12 +201,18 @@ int main(int argc, char** argv) {
 
 		// Task 1: фильтр изображения
 		if (TASK == 1) {
+			double filtrStart = MPI_Wtime();
 			Mat filteredPart = filterRoberts(part);
+			double filtrEnd = MPI_Wtime();
+			cout << "Filter time: " << (filtrEnd - filtrStart) / 1000 << "s" << endl;
 			MPI_Send(filteredPart.data, bufferSize, MPI_UNSIGNED_CHAR, 0, 0, MPI_COMM_WORLD);
 		}
 		// Task 2: увеличение изображения
 		else if (TASK == 2) {
+			double sclStart = MPI_Wtime();
 			Mat scaledPart = scaleImage(part, SCALE);
+			double sclEnd = MPI_Wtime();
+			cout << "Scale time: " << (sclEnd - sclStart) / 1000 << "s" << endl;
 			MPI_Send(scaledPart.data, scaledPart.cols * scaledPart.rows, MPI_UNSIGNED_CHAR, 0, 0, MPI_COMM_WORLD);
 		}
 	}
@@ -254,18 +260,27 @@ int main(int argc, char** argv) {
 /////////////// последовательная ////////////////////////////
 
 //int main(int argc, char** argv) {
-//	Mat srcImage = loadImage("C://Users//Марина//Desktop//Univers//4 semestr//KS&S//CourseWork//CourseWork(3)//CourseWork(3)//image.jpg");
-//    Mat filteredImage = filterRoberts(srcImage);
-//	Mat scaledImage = scaleImage(srcImage, SCALE);
-//    
+//	Mat srcImage = loadImage("C://Users//Марина//Desktop//Univers//4 semestr//KS&S//CourseWork//CourseWork(3)//CourseWork(3)//image.jpg");    
 //	imshow("srcImage", srcImage);
 //
-//	imshow("filteredImage", filteredImage);
-//	imwrite("C:\\Users\\Марина\\Desktop\\Univers\\4 semestr\\KS&S\\CourseWork\\CourseWork(3)\\CourseWork(3)\\filteredImage.jpg", filteredImage);
-//
-//	imshow("scaledImage", scaledImage);
-//	imwrite("C:\\Users\\Марина\\Desktop\\Univers\\4 semestr\\KS&S\\CourseWork\\CourseWork(3)\\CourseWork(3)\\scaledImage.jpg", scaledImage);
+//	double start = clock();
+//	if (TASK == 1) {
+//		Mat filteredImage = filterRoberts(srcImage);
+//		double fltr = clock();
+//		cout << "Filter time: " << (fltr - start) / 1000 << "s" << endl;
+//		imshow("filteredImage", filteredImage);
+//		imwrite("C:\\Users\\Марина\\Desktop\\Univers\\4 semestr\\KS&S\\CourseWork\\CourseWork(3)\\CourseWork(3)\\filteredImage.jpg", filteredImage);
+//	}
+//	else if (TASK == 2) {
+//		Mat scaledImage = scaleImage(srcImage, SCALE);
+//		double scld = clock();
+//		cout << "Scale time: " << (scld - start) / 1000 << "s" << endl;
+//		imshow("scaledImage", scaledImage);
+//		imwrite("C:\\Users\\Марина\\Desktop\\Univers\\4 semestr\\KS&S\\CourseWork\\CourseWork(3)\\CourseWork(3)\\scaledImage.jpg", scaledImage);
+//	}
 //	
+//	double end = clock();
+//	cout << "Total time: " << (end - start) / 1000 << "s" << endl;
 //	waitKey(0);
 //    return 0;
 //}
